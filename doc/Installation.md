@@ -15,3 +15,43 @@ cd inspircd
 sudo cp inspircd.conf inspircd.conf.copie
 sudo jed inspircd.conf # voir ficheir dans etc
 ```
+## Test avec client
+
+```
+sudo apt install weechat
+weechat
+✦ /server add exp irc.experimentations.buzz
+✦ /connect exp
+✦ /join #jasette
+✦ allo
+✦ /quit
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
