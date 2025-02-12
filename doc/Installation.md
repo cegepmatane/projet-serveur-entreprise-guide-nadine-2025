@@ -14,6 +14,7 @@ sudo chmod +x inspircd
 cd inspircd
 sudo cp inspircd.conf inspircd.conf.copie
 sudo jed inspircd.conf # voir ficheir dans etc
+sudo systemctl restart inspircd
 ```
 ## Test avec client
 
