@@ -50,3 +50,20 @@ sudo apt-cache search pip | grep python
 sudo apt install python3-pip
 python3 -m pip install -r requirements.txt
 ```
+Après l'installation, on le configure pour notre serveur irc spécifique.
+```
+cp botconfig.py.example botconfig.py
+sudo jed botconfig.py
+python3 wolfbot.py &
+```
+On change les valeurs suivantes dans le jed
+
+HOST = "irc.experimentations.buzz"
+PORT = 6667
+NICK = "maitre_de_jeu"
+USERNAME = ""  # For authentication; can be left bla$
+PASS = "testtest" # can be None if authenticating wi$
+SASL_AUTHENTICATION = False
+USE_SSL = False
+SSL_VERIFY = False
+CHANNEL = "#loupgarou"
