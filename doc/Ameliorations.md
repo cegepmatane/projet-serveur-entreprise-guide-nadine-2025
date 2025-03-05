@@ -14,6 +14,7 @@ Effacer tous les commentaires du fichier de configuration
 (ou recuperer celui du drive dans la semaine 6 (atheme.conf.minimal)
 
 ## Configurer le mot du jour
+https://docs.inspircd.org/3/configuration/
 
 ```
 cd /etc/inspircd
