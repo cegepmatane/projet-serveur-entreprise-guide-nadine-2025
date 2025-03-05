@@ -36,3 +36,16 @@ weechat
 ✦ /connect buzz
 ✦ /quit
 ```
+
+## Installer le jeu de loup-garou
+
+```
+wget https://github.com/lykoss/lykos/archive/refs/tags/stable-201905.zip
+unzip stable-201905.zip 
+mv lykos-stable-201905 lykos
+cd lykos
+sudo apt update
+sudo apt-cache search pip | grep python
+sudo apt install python3-pip
+python3 -m pip install -r requirements.txt
+```
