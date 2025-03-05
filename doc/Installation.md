@@ -13,9 +13,13 @@ cd /etc
 sudo chmod +x inspircd
 cd inspircd
 sudo cp inspircd.conf inspircd.conf.copie
-sudo jed inspircd.conf # voir ficheir dans etc
+sudo jed inspircd.conf # voir ficheir dans etc 
 sudo systemctl restart inspircd
 ```
+Les modifications à la configuration sont 
+- balise <server> : préciser le nom de domaine irc.experimentations.buzz, l'id et le network
+- balise <bind> : on garde le type="clients" mais on retire la valeur de address
+
 ## Test avec client
 
 ```
