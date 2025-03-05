@@ -28,7 +28,7 @@ sudo service inspircd restart
 ```
 
 
-## Test avec client
+### Test avec client
 
 ```
 # sudo apt install weechat
@@ -67,3 +67,15 @@ SASL_AUTHENTICATION = False
 USE_SSL = False
 SSL_VERIFY = False
 CHANNEL = "#loupgarou"
+
+### Test avec client
+
+```
+weechat
+✦ /connect buzz
+✦ /join #loupgarou
+✦ !join
+✦ /part
+✦ /quit
+```
+
